@@ -5,6 +5,11 @@ body{
     background-color: #ff4c68;
     color: white;
 }
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
 h1{
     font-size: 3.5rem;
     font-weight: 900;
@@ -20,7 +25,7 @@ p{
     padding:0 5%;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 .navbar{
     padding: 0 0 4.5rem;
@@ -39,6 +44,8 @@ p{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
 }
 #features{
     padding: 7% 15%;
@@ -52,4 +59,40 @@ p{
 }
 .icon:hover{
     color: #ff4c68;
+}
+h2{
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-size:3rem;
+}
+#testimonials{
+    
+    background-color: #ef8172;
+    color: white;
+    
+    text-align: center;
+}
+.testimonial-img{
+    margin: 30px;
+    width: 10%;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.company{
+    padding:50px 30px ;
+    width: 15%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
 }
