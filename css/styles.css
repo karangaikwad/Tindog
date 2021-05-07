@@ -105,3 +105,27 @@ h2{
         text-align: center;
     }
 }
+#cta{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: white;
+}
+.cta-heading{
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.fab{
+    padding: 10px;
+}
+.fas{
+    padding: 10px;
+}
