@@ -8,7 +8,6 @@ body{
 #features{
     background-color: white;
     position: relative;
-    z-index: 1;
 }
 h1{
     font-size: 3.5rem;
@@ -95,4 +94,14 @@ h2{
 #pricing{
     text-align: center;
     padding: 100px;
+}
+@media (max-width: 1028px){
+    .title-image{
+        transform: rotate(0deg);
+        position: static;
+        /* text-align: center; */
+    }
+    #title{
+        text-align: center;
+    }
 }
